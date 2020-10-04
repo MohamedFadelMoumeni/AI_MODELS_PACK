@@ -51,9 +51,13 @@ h3, h1{
     transition: 0.3s;
     width: 30%;
     margin: 1em;
+    transition: all .5;
+    
   }
   .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 20px 0 rgb(36, 36, 36);
+transform: translateY(-20px);
+
   }
   
   .container-element {
@@ -92,6 +96,10 @@ h3, h1{
     font-size: 1.5em;
     margin: 0 .5em;
     color: #000;
+}
+.underdev {
+    color: orange;
+    text-decoration: underline;
 }
   @media screen and (max-width: 900px){
     .card-container{
